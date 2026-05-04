@@ -21,4 +21,18 @@ public class BankCard
         this.owner = owner;
         count++;
     }
+    public decimal Limit
+    {
+        get { return limit; }
+    }
+
+    public string Number
+    {
+        get { return number; }
+    }
+
+    public string Owner
+    {
+        get { return owner; }
+    }
 }
