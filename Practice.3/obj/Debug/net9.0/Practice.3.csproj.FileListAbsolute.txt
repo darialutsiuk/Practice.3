@@ -12,3 +12,4 @@ C:\Users\Admin\RiderProjects\Practice.3\Practice.3\obj\Debug\net9.0\refint\Pract
 C:\Users\Admin\RiderProjects\Practice.3\Practice.3\obj\Debug\net9.0\Practice.3.pdb
 C:\Users\Admin\RiderProjects\Practice.3\Practice.3\obj\Debug\net9.0\Practice.3.genruntimeconfig.cache
 C:\Users\Admin\RiderProjects\Practice.3\Practice.3\obj\Debug\net9.0\ref\Practice.3.dll
+C:\Users\Admin\RiderProjects\Practice.3\Practice.3\obj\Debug\net9.0\Practice.3.sourcelink.json
