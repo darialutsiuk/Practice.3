@@ -6,4 +6,19 @@ public class BankCard
     private string owner;
     private decimal limit;
     private static int count = 0;
+
+    public BankCard(string number, string owner, decimal limit)
+    {
+        this.number = number;
+        this.owner = owner;
+        this.limit = limit;
+        count++;
+    }
+
+    public BankCard(string number, string owner)
+    {
+        this.number = number;
+        this.owner = owner;
+        count++;
+    }
 }
