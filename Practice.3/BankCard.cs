@@ -35,4 +35,25 @@ public class BankCard
     {
         get { return owner; }
     }
+    
+    public void SetLimit(decimal newLimit)
+    {
+        if (newLimit < 0)
+            Console.WriteLine("Помилка: ліміт не може бути від'ємним!");
+        else
+            limit = newLimit;
+    }
+    
+    public bool IsOperationAllowed(decimal amount)
+    {
+        return amount <= limit;
+    }
+    public static int GetCount()
+    {
+        return count;
+    }
+    public override string ToString()
+    {
+        return $"Картка: {number}  Власник: {owner}  Ліміт: {limit} грн";
+    }
 }
